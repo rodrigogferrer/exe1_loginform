@@ -58,25 +58,27 @@ input[type=checkbox] {
 }
 
 .username-icon{
-	background-image: url("../img/user.svg");
+	background-image: url("../img/username.png");
 	background-repeat: no-repeat;
+	background-size: cover;
 	color: transparent;
 	float: left;
-	width: 25px;
-	height: 25px;
+	width: 40px;
+	height: 40px;
 	margin-top: 15px;
 	margin-left: 1px;
 }
 
 .password-icon{
-	background-image: url("../img/locker.svg");
+	background-image: url("../img/password.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: transparent;
 	float: left;
-	width: 25px;
-	height: 25px;
+	width: 35px;
+	height: 35px;
 	margin-top: 14px;
+	margin-left: 5px;
 }
 
 .login-button, .or-divisor{
