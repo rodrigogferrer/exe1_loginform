@@ -1,0 +1,203 @@
+body {
+	background-image: url("../landscape.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1, h2, h3,h5, .login-button, .or-divisor, label, .forgot-password-link, .main-footer, .input-username{
+	font-family: 'Roboto Condensed';
+	font-weight: normal;
+	color: white;
+}
+
+/* MAIN HEADING */
+
+h1 {
+	margin-top: 78px;
+	text-align: center;
+	font-size: 4em;
+}
+
+/* LOGIN FORM */
+
+h2 {
+	text-align: left;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.forgot-password-link, .login-form-footer, .login-form{
+	width: 32.84%;
+	margin: auto;
+}
+
+input[type=checkbox] {
+  margin-top: 15px;
+  transform: scale(1.8);
+  margin-left: 5px;
+  float: left;
+}
+
+.login-form-footer{
+	margin-top: 30px;
+}
+
+.input-username, .input-password{
+	background-color: transparent;
+	border-color: transparent;
+	font-weight: 400;
+	font-size: 1em;
+	color: white;
+}
+
+.username, .password{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid white;
+	padding-left: 50px;
+}
+
+.username-icon{
+	background-image: url("../img/user.svg");
+	background-repeat: no-repeat;
+	color: transparent;
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-top: 15px;
+	margin-left: 1px;
+}
+
+.password-icon{
+	background-image: url("../img/locker.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: transparent;
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-top: 14px;
+}
+
+.login-button, .or-divisor{
+	color: white;
+	background-color:#ff3366;
+	border-color: #ff3366;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.login-button{
+	width: 32.84%;
+	border-radius: 4px;
+	padding: 8px 50px;
+	font-size: 1.5em;
+	margin-top: 85px;
+}
+
+.login-button:hover{
+	background-color:rgb(182,51,75);
+	border-color: rgb(182,51,75);
+	-webkit-transition: 0.3s all;
+}
+
+/* OR DIVISOR */
+
+h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1.5em;
+}
+
+.or-divisor{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	text-align: center;
+}
+
+/* SOCIAL MEDIA ICONS */
+
+a .facebook, a .twitter{
+	height: 21px;
+	width: 12.5%;
+	margin: auto;
+	font-size: 16px;
+	border-radius: 3px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 8px;
+	text-align: left;
+}
+
+a .facebook{
+	float: left;
+	background-color: rgb(64,89,150);
+}
+
+a .twitter{
+	background-color: rgb(31,184,255);
+	float: right;
+	margin-right: 480px;
+}
+
+.fb-icon, .twt-icon{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-color: #fff;
+	border-right: 1px dotted white;
+	/*background-size: cover;*/
+}
+
+.fb-icon{
+	background-image: url("../img/facebook.png");
+	float: left;
+	width: 37px;
+	height: 35px;
+	margin-left: 480px;
+}
+
+.twt-icon{
+	background-image: url("../img/twitter.png");
+	float: right;
+	width: 39px;
+	height: 35px;
+}
+
+#forgot-link{
+	color: white;
+	text-decoration: none;
+	float: right;
+}
+
+#forgot-link:hover{
+	color: #ff3366;
+}
+
+
+
+.checkbox-remember{
+	margin-top: 12px;
+	margin-left: 20px;
+	float: left;
+}
+
+.forgot-password{
+	margin-top: 12px;
+	float: right;
+}
+
+.main-footer{
+	text-align: center;
+	font-size: 1em;
+	margin-top: 161px;
+}

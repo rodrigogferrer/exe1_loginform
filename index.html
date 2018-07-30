@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Classy Login Form</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<main class="main-background">
+		<h1>Classy Login Form</h1>
+
+		<div class="login-form">
+			<!-- Aqui eu colei a parte do ONFOCUS e ONBLUR -->
+			<i class="username-icon"> </i><h2 class="username"><input type="text" value="User name" class="input-username" onfocus="this.value=''" onblur="if (this.value == '') {this.value = 'User name';}"></h2>
+			<i class="password-icon"> </i><h2 class="password"><input type="password" value="Password" class="input-password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}"></h2>
+			<!-- onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}" -->
+		</div>
+
+		<div class="login-form-footer">
+			<input type="checkbox"><label class="checkbox-remember">Remember me</label>
+		</div>
+		<div class="forgot-password-link">
+			<label class="forgot-password"><a id="forgot-link" href="#">Forgot Password?</a></label>
+		</div>
+
+		<button type="submit" form="form1" value="Submit" class="login-button">Login</button>
+
+		<div class="or-divisor">
+			<h3>or</h3>
+		</div>
+
+		<div class="social-media">
+			<a href="#"><i class="fb-icon"></i><h5 class="facebook">Facebook</h5></a>
+			<a href="#"><h5 class="twitter">Twitter</h5><i class="twt-icon"></i></a>
+		</div>
+
+		</main>
+	</body>
+	<footer class="main-footer">
+		&copy; 2016 Classy Login Form. All rights reserved | Design by W3layouts
+	</footer>
+</html>
